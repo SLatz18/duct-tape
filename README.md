@@ -9,6 +9,10 @@ have to bleed for them.
 | Tool | Problem | Fix |
 |------|---------|-----|
 | [Muse Code](muse-code/muse-login-device-flow.md) | `muse login` dies with `device flow transport error` behind proxies | Manual device flow with curl + API key mint |
+| [Claude Code](claude-code/add-dir-swallows-prompt.md) | `--add-dir <dir> "prompt"` boots idle with an empty prompt | Use the equals form: `--add-dir=<dir>` |
+| [Deno](deno/accept-loop-dies-silently-macos.md) | Unix-socket server goes deaf but passes every liveness check (macOS) | Explicit `accept()` loop that logs and continues; real health checks |
+| [Chromium browsers](chromium-browsers/site-403-bad-imported-cookie.md) | One site 403s on every page in one browser, curl works | Delete that site's data via `chrome://settings/content/siteDetails` |
+| [Gmail](gmail/draft-deep-links-open-blank-compose.md) | `#drafts?compose=<id>` opens a blank compose, not the draft | Link to `#drafts` and name the subject |
 
 ## Contributing
 
