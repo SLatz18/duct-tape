@@ -2,8 +2,8 @@
 
 **Tool:** Cloud agent browser (Chromium) forwarding WebAuthn to a Mac desktop app
 **Tool version:** unknown
-**AI model:** unknown
-**Harness:** cloud agent with remote Chromium browser + Mac WebAuthn forwarding app
+**AI model:** Grok Bot
+**Harness:** Grok Bot (desktop agent: cloud box Chromium + Grok Bot Mac app WebAuthn forwarding)
 **Date:** 2026-10-15
 
 ## Problem
