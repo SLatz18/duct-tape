@@ -13,6 +13,7 @@ have to bleed for them.
 | [Deno](deno/accept-loop-dies-silently-macos.md) | Unix-socket server goes deaf but passes every liveness check (macOS) | Explicit `accept()` loop that logs and continues; real health checks |
 | [Chromium browsers](chromium-browsers/site-403-bad-imported-cookie.md) | One site 403s on every page in one browser, curl works | Delete that site's data via `chrome://settings/content/siteDetails` |
 | [Gmail](gmail/draft-deep-links-open-blank-compose.md) | `#drafts?compose=<id>` opens a blank compose, not the draft | Link to `#drafts` and name the subject |
+| [WebAuthn](webauthn/security-key-prompt-never-appears.md) | Security Key MFA times out; the Mac never shows a prompt | Clear that IdP host's site data, fresh SSO, new desktop handoff |
 
 ## Contributing
 
