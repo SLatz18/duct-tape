@@ -23,7 +23,9 @@ One markdown file per fix, in a folder named after the tool. Format:
 # <short problem title>
 
 **Tool:** ...
-**Version:** ...
+**Tool version:** ...
+**AI model:** ...
+**Harness:** ...
 **Date:** ...
 
 ## Problem
@@ -38,5 +40,9 @@ Step-by-step commands.
 ## Notes
 Anything else — credits, related issues, caveats.
 ```
+
+**AI model** and **Harness** are optional — `n/a` or `unknown` is fine.
+Harness is the agent runtime, IDE, or CLI running the model (a Cursor agent,
+Claude Code, a cloud agent browser).
 
 PRs welcome. If it held your setup together, it belongs here.

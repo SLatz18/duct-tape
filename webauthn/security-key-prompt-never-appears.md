@@ -1,7 +1,9 @@
 # Security Key prompt never appears on the Mac (WebAuthn timed out)
 
 **Tool:** Cloud agent browser (Chromium) forwarding WebAuthn to a Mac desktop app
-**Version:** unknown
+**Tool version:** unknown
+**AI model:** unknown
+**Harness:** cloud agent with remote Chromium browser + Mac WebAuthn forwarding app
 **Date:** 2026-10-15
 
 ## Problem
